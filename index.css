@@ -45,6 +45,7 @@
                margin: 0 auto;
        }
 }
+
 .login{
         padding: 16px;
 }
@@ -113,9 +114,11 @@
         margin-bottom: 10px;
         cursor: pointer;
 }
+
 .google-signup button:hover{
-        background-color: red;
+        background-color: rgb(228,244,255);
 }
+
 .google-image img{
         width: 20px;
         height: 20px;
@@ -153,11 +156,13 @@
         text-align: left;
         letter-spacing: 0.25px;
 } 
+
 .google-logo{
         display: flex;
      
         align-items: center;
 }
+
 .google-logo img{
         width: 20px;
         height: 20px;
@@ -177,17 +182,21 @@
         cursor: pointer;
         background-color: white;
 }
+
 .apple-signup button:hover{
-        background-color: red;
+        background-color: #dadce0;
 }
+
 .apple-icon {
         width: 20px;
         height: 20px;
         margin-right: 4px;    
 }
+
 .apple-icon i{
        font-size: 20px;
 }
+
 .apple-text{
         color: #0F1419;
         font-size:15px;     
@@ -232,11 +241,12 @@
 }
 
 .email-signup button:hover{
-        background-color: red;
+        background-color: rgb(80, 175, 238);
 }
+
 .email-button span{
         font-size: 15px;
-        color: rgb(83, 100, 113);
+        color: white;
         font-weight: 700;
         line-height: 20px;
 }
@@ -283,8 +293,9 @@
         background-color: white;
 }
 .already-signedup button:hover{
-        background-color: red;
+        background-color: rgb(228,244,255);
 }
+
 .sign-in{
         display: flex;
         justify-content: center;
