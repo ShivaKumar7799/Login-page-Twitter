@@ -1,0 +1,308 @@
+
+@font-face {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+        src: url(twitterchirp.ttf);
+}
+
+*{
+        padding: 0px;
+        margin: 0px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+}
+
+.twitter-login{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+        height: max-content;
+}
+
+.login-image{
+        background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png);
+        background-size: cover;
+
+}
+
+.login-image img{
+        width: 50%;
+        height: 50%;
+        object-fit: contain;    
+        transform: translate(50%,50%);
+}
+
+@media screen and (max-width:1000px) {
+        .twitter-login{
+               display: flex;
+               flex-direction: column-reverse;
+        }
+       .login-image img{
+               width: 25%;
+               height: fit-content;
+               padding: 20px;
+               transform: translate(100%,0%);
+       }
+       .login{
+               margin: 0 auto;
+       }
+}
+.login{
+        padding: 16px;
+}
+
+.login-text{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,max-content);
+        height: auto;
+        padding: 20px;
+}
+
+.twitter-logo img{
+        width: 45px;
+        height: 47px;
+        padding: 0px 0px 12px;
+}
+
+.twitter-heading{
+        padding: 48px 0px;
+}
+
+.twitter-heading span{
+        font-size: 64px;
+        color: rgb(15, 20, 25);
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+        line-height: 84px;
+        letter-spacing: -1.2px;
+        font-weight: 700;
+}
+
+.twitter-sub-heading{
+        margin-bottom: 32px ;
+}
+
+.twitter-sub-heading span{
+        font-size: 31px;
+        color: #0F1419;
+        line-height: 36px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+        font-weight: 700;
+}
+
+.signup-details{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,max-content);
+      
+}
+
+.google-button{
+        display: flex;
+        width: 300px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background-color: #fff;
+        border: 1px solid #dadce0;
+        cursor: pointer;
+        height: 40px;
+        padding: 0px 12px;
+        text-align: center;
+        justify-content: start;     
+        margin-bottom: 10px;
+        cursor: pointer;
+}
+
+.google-details{
+       padding-right: 70px;
+}
+
+.google-image img{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-left: -4px;
+        margin-right: 8px;
+        cursor: pointer;
+}
+
+.google-image{
+        align-items: center;
+        display: flex;
+}
+
+.person-name{
+        text-align: left;
+}
+
+.person-name span{
+        font-size: 12px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        color: #3c4043;
+        cursor: pointer;
+        text-align: left;
+}
+
+.person-email{
+        color: #5f6368;
+        width: 100%;
+        font-size: 11px;
+        font-weight: 400;
+        font-family: 'Roboto';
+        text-align: left;
+        letter-spacing: 0.25px;
+} 
+.google-logo{
+        display: flex;
+     
+        align-items: center;
+}
+.google-logo img{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+        align-items: center;
+}
+
+.apple-button{
+        display: flex;
+        justify-content: center;
+        border: 1px solid #dadce0; 
+        width: 300px;  
+        height: 40px;
+        align-items: center;
+        border-radius: 20px;
+        cursor: pointer;
+}
+.apple-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 4px;    
+}
+
+.apple-text{
+        color: #0F1419;
+        font-size:15px;       
+}
+
+.or{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        margin: 4px 0px;
+        row-gap: 10px;
+        height: max-content;
+}
+
+.or-text span{
+        font-size: 15px;    
+}
+
+.left-line , .right-line{
+        width: 150px;
+        border-bottom: 1px solid rgb(239, 243, 244);
+}
+
+.email-button{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 40px;
+        color: white;
+        background-color: rgb(29, 155, 240);
+        border: 1px solid white;
+        border-radius: 20px;
+        align-items: center;
+        cursor: pointer;
+        margin-bottom: 8px;
+        margin-right: 20px;
+}
+
+.email-button span{
+        font-size: 15px;
+        font-weight: 700;
+}
+
+.terms{
+        width: 300px;
+        font-size: 12px;
+        color:rgb(83, 100, 113);
+        height: max-content;
+        margin-bottom: 20px;
+}
+
+.terms a{
+        text-decoration: none;
+        color:rgb(29, 155, 240);
+        cursor: pointer;
+        line-height: 12px;
+}
+
+.terms a:hover{
+        text-decoration: underline;
+}
+
+.already-signedup{
+        margin-top: 40px;
+}
+
+.already-account{
+        font-size: 17px;
+        color: rgb(15, 20, 25);
+        font-weight: 700;
+        margin-bottom: 20px;
+}
+
+.signin-button{
+        width: 300px;
+        height: 40px;
+        border: 1px solid #dadce0; 
+        border-radius: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+}
+
+.sign-in{
+        display: flex;
+        justify-content: center;
+        color: rgb(29, 155, 240);
+        font-weight: 700;
+        font-size: 15px;
+}
+
+.footer-bar{
+           padding: 12px 16px;   
+}
+
+ul{
+        display: flex;
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px; 
+        flex-wrap: wrap;
+        justify-content: center;      
+}
+
+li{
+        display:  inline-block;  
+        padding: 0px 16px 0px 0px;
+        margin: 4px 0px;       
+}
+
+.footer-bar a{
+        text-decoration: none;
+        color: #536471;
+        font-size: 13px;
+        color: rgb(83, 100, 113); 
+         
+}
+
+.footer-bar a:hover{
+        text-decoration: underline;
+}
+
+.footer-bar li:last-child a:hover{
+        text-decoration: none;
+}
